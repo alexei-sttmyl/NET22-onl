@@ -1,0 +1,14 @@
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\bin\Debug\net8.0\2025.11.20_lesson3(HW).exe
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\bin\Debug\net8.0\2025.11.20_lesson3(HW).deps.json
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\bin\Debug\net8.0\2025.11.20_lesson3(HW).runtimeconfig.json
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\bin\Debug\net8.0\2025.11.20_lesson3(HW).dll
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\bin\Debug\net8.0\2025.11.20_lesson3(HW).pdb
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\obj\Debug\net8.0\2025.11.20_lesson3(HW).GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\obj\Debug\net8.0\2025.11.20_lesson3(HW).AssemblyInfoInputs.cache
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\obj\Debug\net8.0\2025.11.20_lesson3(HW).AssemblyInfo.cs
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\obj\Debug\net8.0\2025.11.20_lesson3(HW).csproj.CoreCompileInputs.cache
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\obj\Debug\net8.0\2025.11.20_lesson3(HW).dll
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\obj\Debug\net8.0\refint\2025.11.20_lesson3(HW).dll
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\obj\Debug\net8.0\2025.11.20_lesson3(HW).pdb
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\obj\Debug\net8.0\2025.11.20_lesson3(HW).genruntimeconfig.cache
+D:\repos\TeachMeSkills\2025.11.20_lesson3(HW)\obj\Debug\net8.0\ref\2025.11.20_lesson3(HW).dll
