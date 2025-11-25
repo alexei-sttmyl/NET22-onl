@@ -11,11 +11,7 @@
                 "3. Fibonacci Sequence\n" +
                 "4. Create user sized matrix. Fill it. Print. \n" +
                 "Search positive and negaative numbers.\n" +
-                "5. Print matrix V2.0.\n" +
-                "Count the numbers of every unique number.\n" +
-                "6. Create List\n" +
-                "7. Change or print List elements\n" +
-                "8. Print List. Change List. Print List. Create HeshSet\n" +
+                "5. List.\n" +
                 "0. Exit\n\n" +
                 "Choose the operation: ");
             string? selectedOperation = Console.ReadLine();
@@ -46,7 +42,7 @@
                     }
                 case "5":
                     {
-
+                        CreateList();           //Создание, заполнение и управление Списком пользователем. Изменить лист, вывести.
                         break;
                     }
                 case "0":
@@ -60,7 +56,6 @@
                         break;
                     }
             }
-            Console.ReadKey();
         }
     }
 
@@ -216,6 +211,23 @@
                 {
                     Console.WriteLine($"Number: {number.Key}, Count: {number.Value}");
                 }
+
+                for (int i = 0; i < N; i++)
+                {
+                    for (int j = 0; j < N; j++)
+                    {
+                        if ((i % 2 == 0) && (matrix[i, j] % 2 == 0))        //отсчёт с нуля - в нулевой строке выводятся чётные числа
+                        {
+                            Console.Write($"{matrix[i, j]} ");
+                        }
+                        else if ((i % 2 != 0) && (matrix[i, j] % 2 != 0))
+                        {
+                            Console.Write($"{matrix[i, j]} ");
+                        }
+                    }
+                    Console.WriteLine();
+                }
+
             }
             else
             {
@@ -225,6 +237,108 @@
         else
         {
             Console.WriteLine("It's not an integer");
+        }
+    }
+
+    //Листы
+    public static void CreateList()
+    {
+        Console.WriteLine("You have selected Creation List, filling it and managing it\n");
+
+        List<int> UserList = new List<int>();
+        var rand = new Random();
+        bool isUserControlRunning = true;
+
+        Console.WriteLine("Your List: \n");
+        for (int i = 0; i < 10; i++)                    //Заполнение и вывод листа
+        {
+            UserList.Add(rand.Next(1, 21));
+            Console.Write($"[{i}]: {UserList[i]}\n");
+        }
+
+        while (isUserControlRunning)                    // Предоставление пользователю возможности управления Списком
+        {
+            Console.WriteLine("\nChoose the operation:\n" +
+                "1. Print\n" +
+                "2. Add\n" +
+                "3. Remove\n" +
+                "4. Console Clear\n" +
+                "0. Exit");
+
+            string? operationWithList = Console.ReadLine();
+
+            switch (operationWithList)
+            {
+                case "1":                   //Вывод на консоль всего списка
+                    {
+                        Console.WriteLine("Your List: \n");
+                        for (int i = 0; i < UserList.Count; i++)
+                        {
+                            Console.Write($"[{i}]: {UserList[i]}\n");
+                        }
+                        break;
+                    }
+
+                case "2":                   //Добавление элемента в конец списка
+                    {
+                        int newElement = 0;
+                        Console.WriteLine("Enter an integer to add:");
+                        if (int.TryParse(Console.ReadLine(), out newElement))
+                        {
+                            UserList.Add(newElement);
+                        }
+                        break;
+                    }
+
+                case "3":                   //Удаление элемента из списка по индексу
+                    {
+                        int indexToDelete = 0;
+                        Console.WriteLine("Enter an integer to add:");
+                        if (int.TryParse(Console.ReadLine(), out indexToDelete) && indexToDelete > 0 && indexToDelete < UserList.Count)
+                        {
+                            UserList.RemoveAt(indexToDelete);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Try again");
+                        }
+                        break;
+                    }
+
+                case "4":                   //Очистить консоль
+                    {
+                        Console.Clear();
+                        break;
+                    }
+
+                case "0":                   //Выход
+                    {
+                        isUserControlRunning = false;
+                        break;
+                    }
+
+                default:
+                    Console.WriteLine("Try again");
+                    break;
+            }
+        }
+
+        Console.WriteLine("New List: \n");
+
+        for (int i = 0; i < UserList.Count; i++)
+        {
+
+            if (i % 2 == 0)
+            {
+                UserList.RemoveAt(i);
+                UserList.Insert(i, UserList[i] * 2);
+            }
+            else
+            {
+                UserList.RemoveAt(i);
+                UserList.Insert(i, 0);
+            }
+            Console.Write($"[{i}]: {UserList[i]}\n");
         }
     }
 }
