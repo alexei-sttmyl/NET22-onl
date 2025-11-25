@@ -1,0 +1,14 @@
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\bin\Debug\net8.0\2025.11.18_lesson4(StrDan).exe
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\bin\Debug\net8.0\2025.11.18_lesson4(StrDan).deps.json
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\bin\Debug\net8.0\2025.11.18_lesson4(StrDan).runtimeconfig.json
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\bin\Debug\net8.0\2025.11.18_lesson4(StrDan).dll
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\bin\Debug\net8.0\2025.11.18_lesson4(StrDan).pdb
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\obj\Debug\net8.0\2025.11.18_lesson4(StrDan).GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\obj\Debug\net8.0\2025.11.18_lesson4(StrDan).AssemblyInfoInputs.cache
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\obj\Debug\net8.0\2025.11.18_lesson4(StrDan).AssemblyInfo.cs
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\obj\Debug\net8.0\2025.11.18_lesson4(StrDan).csproj.CoreCompileInputs.cache
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\obj\Debug\net8.0\2025.11.18_lesson4(StrDan).dll
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\obj\Debug\net8.0\refint\2025.11.18_lesson4(StrDan).dll
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\obj\Debug\net8.0\2025.11.18_lesson4(StrDan).pdb
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\obj\Debug\net8.0\2025.11.18_lesson4(StrDan).genruntimeconfig.cache
+D:\repos\TeachMeSkills\2025.11.18_lesson4(StrDan)\obj\Debug\net8.0\ref\2025.11.18_lesson4(StrDan).dll
