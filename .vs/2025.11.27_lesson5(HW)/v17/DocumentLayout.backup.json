@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repos\\TeachMeSkills\\2025.11.27_lesson5(HW)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E6579C-42DD-488D-BCEA-D8F761E008A2}|..\\ClassLibL5\\ClassLibL5.csproj|d:\\repos\\teachmeskills\\classlibl5\\textanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E6579C-42DD-488D-BCEA-D8F761E008A2}|..\\ClassLibL5\\ClassLibL5.csproj|d:\\repos\\teachmeskills\\classlibl5\\itextanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD3FB2A-7337-47F7-8DAE-5694F753759D}|2025.11.27_lesson5(HW).csproj|d:\\repos\\teachmeskills\\2025.11.27_lesson5(hw)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD3FB2A-7337-47F7-8DAE-5694F753759D}|2025.11.27_lesson5(HW).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITextAnalyzer.cs",
+              "DocumentMoniker": "D:\\repos\\TeachMeSkills\\ClassLibL5\\ITextAnalyzer.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibL5\\ITextAnalyzer.cs",
+              "ToolTip": "D:\\repos\\TeachMeSkills\\ClassLibL5\\ITextAnalyzer.cs",
+              "RelativeToolTip": "..\\ClassLibL5\\ITextAnalyzer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T22:16:00.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextAnalyzer.cs",
+              "DocumentMoniker": "D:\\repos\\TeachMeSkills\\ClassLibL5\\TextAnalyzer.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibL5\\TextAnalyzer.cs",
+              "ToolTip": "D:\\repos\\TeachMeSkills\\ClassLibL5\\TextAnalyzer.cs",
+              "RelativeToolTip": "..\\ClassLibL5\\TextAnalyzer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwG0AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T22:15:47.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repos\\TeachMeSkills\\2025.11.27_lesson5(HW)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\repos\\TeachMeSkills\\2025.11.27_lesson5(HW)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T21:23:02.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
