@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitLesson1
+namespace ClassLibrary1
 {
-    internal class Program
+    internal class Teacher : Person
     {
-        static void Main(string[] args)
+        public void Explain()
         {
+            Console.WriteLine("I'm explaining.");
         }
     }
 }
